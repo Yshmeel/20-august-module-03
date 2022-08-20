@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Petfinder</title>
+
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- App container. Horizontally centered and has width 414x800 !-->
+    <div class="app">
+        <div class="container">
+            <!-- States !-->
+            <input type="radio" name="slide" id="slide-1" checked />
+            <input type="radio" name="slide" id="slide-2" />
+
+            <div class="home">
+                <div class="home__dots">
+                    <label for="slide-1" class="home-dot-slide-1">
+                        <span></span>
+                    </label>
+
+                    <label for="slide-2" class="home-dot-slide-2">
+                        <span></span>
+                    </label>
+                </div>
+
+                <div class="home__title">
+                    <h1>petfinder</h1>
+                    <span>Adopt the perfect pet of more than 700 animal shelters...</span>
+                </div>
+
+                <div class="home__footer">
+                    <div class="home__footer__image">
+                        <img src="./img/home-slide1.png" class="home-slide-1-image" />
+                        <img src="./img/home-slide2.png" class="home-slide-2-image"/>
+                    </div>
+
+                    <div class="home__footer__button">
+                        <a href="./search-dogs.html" class="btn-darkblue">
+                            <img src="./img/icons/chevron-right.svg" />
+                            <!-- Connecting icon through img only because we wont colorize it or do something with icon in CSS !-->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

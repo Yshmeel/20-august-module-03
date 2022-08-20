@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Petfinder - Search</title>
+
+    <link href="./css/style.css" rel="stylesheet" />
+</head>
+<body>
+<!-- App container. Horizontally centered and has width 414x800 !-->
+<div class="app">
+    <div class="container">
+        <!-- States !-->
+        <input type="checkbox" id="menu-opened" />
+
+        <div class="search dogs-search">
+            <div class="search__header">
+                <div class="search__header__icon back-icon">
+                    <a href="./index.html">
+                        <img src="./img/icons/chevron-left.svg" alt="back-icon" />
+                    </a>
+                </div>
+
+                <div class="search__header__title">Search</div>
+
+                <div class="search__header__icon menu-icon">
+                    <label for="menu-opened">
+                        <img src="./img/icons/menu-open.svg" alt="open-menu-icon" class="open-menu-icon" />
+                        <img src="./img/icons/menu-close.svg" alt="close-menu-icon" class="close-menu-icon" />
+                    </label>
+                </div>
+            </div>
+
+            <div class="search__field--block">
+                <div class="search__field">
+                    <img src="./img/icons/search.svg" />
+                    <input type="text" name="query" />
+                </div>
+            </div>
+
+            <div class="search__types">
+                <a href="./search-dogs.html" class="search__types__item type-dogs active">
+                    <img src="./img/icons/fa-solid_dog_white.svg" alt="white-dog-icon" />
+
+                    <span>Dogs</span>
+                </a>
+                <a href="./search-cats.html" class="search__types__item type-cats">
+                    <img src="./img/icons/fa-solid_cat.svg" alt="cat-icon" />
+
+                    <span>Cats</span>
+                </a>
+            </div>
+
+            <div class="search__items dogs-search">
+                <a href="./preview-dog.html" class="search__items__item">
+                    <div class="search__items__item--image">
+                        <img src="./img/dogs/benji.png" alt="Benji">
+                    </div>
+
+                    <div class="search__items__item--footer">
+                        <div class="search__items__item--footer--name">
+                            <b>Benji</b>
+                            <span>Golden</span>
+                        </div>
+
+                        <div class="search__items__item--footer--button">
+                            <img src="./img/icons/hearthome.svg" class="hearthome" alt="hearthome-icon"/>
+                            <img src="./img/icons/hearthome-active.svg" class="hearthome-active" alt="hearthome-active-icon" />
+                            <img src="./img/icons/hearthome-white.svg" class="hearthome-white" alt="hearthome-white-icon" />
+                            <img src="./img/icons/hearthome-white-active.svg" class="hearthome-white-active" alt="hearthome-white-active-icon" />
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./preview-dog.html" class="search__items__item">
+                    <div class="search__items__item--image">
+                        <img src="./img/dogs/alvan.png" alt="Alvan">
+                    </div>
+
+                    <div class="search__items__item--footer">
+                        <div class="search__items__item--footer--name">
+                            <b>Alvan</b>
+                            <span>Corgi</span>
+                        </div>
+
+                        <div class="search__items__item--footer--button">
+                            <img src="./img/icons/hearthome.svg" class="hearthome" alt="hearthome-icon"/>
+                            <img src="./img/icons/hearthome-active.svg" class="hearthome-active" alt="hearthome-active-icon" />
+                            <img src="./img/icons/hearthome-white.svg" class="hearthome-white" alt="hearthome-white-icon" />
+                            <img src="./img/icons/hearthome-white-active.svg" class="hearthome-white-active" alt="hearthome-white-active-icon" />
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./preview-dog.html" class="search__items__item">
+                    <div class="search__items__item--image">
+                        <img src="./img/dogs/karsten.png" alt="Karsten">
+                    </div>
+
+                    <div class="search__items__item--footer">
+                        <div class="search__items__item--footer--name">
+                            <b>Karsten</b>
+                            <span>Bulldog</span>
+                        </div>
+
+                        <div class="search__items__item--footer--button">
+                            <img src="./img/icons/hearthome.svg" class="hearthome" alt="hearthome-icon"/>
+                            <img src="./img/icons/hearthome-active.svg" class="hearthome-active" alt="hearthome-active-icon" />
+                            <img src="./img/icons/hearthome-white.svg" class="hearthome-white" alt="hearthome-white-icon" />
+                            <img src="./img/icons/hearthome-white-active.svg" class="hearthome-white-active" alt="hearthome-white-active-icon" />
+                        </div>
+                    </div>
+                </a>
+
+                <a href="./preview-dog.html" class="search__items__item">
+                    <div class="search__items__item--image">
+                        <img src="./img/dogs/reigner.png" alt="Reigner">
+                    </div>
+
+                    <div class="search__items__item--footer">
+                        <div class="search__items__item--footer--name">
+                            <b>Reigner</b>
+                            <span>Pug</span>
+                        </div>
+
+                        <div class="search__items__item--footer--button">
+                            <img src="./img/icons/hearthome.svg" class="hearthome" alt="hearthome-icon"/>
+                            <img src="./img/icons/hearthome-active.svg" class="hearthome-active" alt="hearthome-active-icon" />
+                            <img src="./img/icons/hearthome-white.svg" class="hearthome-white" alt="hearthome-white-icon" />
+                            <img src="./img/icons/hearthome-white-active.svg" class="hearthome-white-active" alt="hearthome-white-active-icon" />
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="menu__header">
+                <div class="menu__header__title">
+                    Menu
+                </div>
+            </div>
+
+            <div class="menu__items">
+                <a href="./index.html" class="menu__items__item home-link">
+                    <img src="./img/icons/fa-solid_home.svg" alt="home-icon" />
+                    <span>Home</span>
+                </a>
+
+                <a href="./search-dogs.html" class="menu__items__item dogs-link">
+                    <img src="./img/icons/fa-solid_dog_white.svg" alt="dog-icon" />
+                    <span>Dogs</span>
+                </a>
+
+                <a href="./search-cats.html" class="menu__items__item cats-link">
+                    <img src="./img/icons/fa-solid_cat_white.svg" alt="cats-icon" />
+                    <span>Cats</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
